@@ -28,5 +28,5 @@ export class HomePage {
   }
   title = 'Tour of Heroes';
   heroes = HEROES;
-  };
 }
+
