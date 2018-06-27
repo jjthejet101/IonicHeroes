@@ -28,5 +28,10 @@ export class HomePage {
   }
   title = 'Tour of Heroes';
   heroes = HEROES;
+  selectedHero: Hero;
+
+  onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+  }
 }
 
